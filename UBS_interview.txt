@@ -1,0 +1,38 @@
+Q)tell me about yourself and why UBS?
+Q) find the first duplicate character in a string
+Q) explain try catch finally.
+Q)  Hashmap detail and how to use it
+Q) about string class, collections, HashMap, Hashtable and difference between the two.
+Q) to make another table same as first table with one line MySql query.
+Q) oops concepts in depth 
+Q) Method overriding where we have method private in base class will give compile time error. 
+Q) Asked me about String class i.e immutable and then asked me to make class immutable 
+Q) about inner class, threads, synchronization
+Q) I was asked a machine learning problem of guessing a person’s mood given the type of songs he listens to.
+Q) codes related to DS.
+Q) write a code on linked list
+Q) questions on DBMS
+Q) a discussion on IOT and upcoming technologies and how they will transform our way of living
+Q) Add 2 arrays using C++?
+Q) Farmer, Chicken, Fox , Corn Puzzle
+Q) Spider , Fly Leg Puzzle
+Q) Given a 4×4 matrix mat, the initial energy is 100. The task is to reach the last row of the matrix with the maximum possible energy left.
+Q)Reverse the interger ( have to code it ).
+- what is multithreading?
+- Bubble sort ( have to code it ).
+- SQL query for Second highest salary in the table.
+- Basics of Java ( OOP concepts ) .
+- difference between SQL and NoSQL database.
+- Explain Microservices
+- what are REST APIs.
+- what is Saas, Iaas, Paas? and give 2-3 examples of each.
+- What is cloud computing? 
+Q) What was the biggest difficulty you have ever faced and how you have overcome through it?
+Q) Create a function that takes a string input and removes all slang/cuss words and common English words.
+Q) What are the difficulties you have faced while working in a group project and how you people solved them as a group
+Q) Why you have decided to join UBS?
+Q) Why Java over Cpp?
+
+For puzzles refer- 
+        https://www.geeksforgeeks.org/top-20-puzzles-commonly-asked-during-sde-interviews/
+Q)  pointers, enum and static variables and lastly about my project.
