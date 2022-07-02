@@ -1,0 +1,187 @@
+     Core Java Questions: 
+     
+1.	What is Object class in Java programming language?
+2.	What are the non-static methods defined in the Object class that are inherited by all classes?
+3.	What are final classes and final methods Java programming language?
+4.	What are the access modifiers?
+5.	What are the Non-access modifiers that can be added to a class declaration?
+6.	What are classes and objects in java?
+7.	What is instance variable?
+8.	What is a method? Types of method.
+9.	What is use of new keyword?
+10.	 What are different ways to initialize an object?
+11.	What are the different ways to create an object in Java?
+12.	 Difference between C, C++ and java.
+13.	What do you know about oops concept?
+14.	Pillars of Oops. Explain them.
+15.	 What is the difference between an object-oriented programming language and object-based programming language?
+16.	 What is constructor? Explain types of constructor in java.
+17.	What are the rules for creating java constructor?
+18.	 Explain constructor overloading in java.
+19.	Difference between constructor and method in Java.
+20.	Which class is a superclass of all classes?
+21.	What is the static keyword?
+22.	What are finally and finalize in Java?
+23.	What is Type casting in Java?
+24.	What is break and continue statement?
+25.	What is an interface?
+26.	What is aggregation in Java?
+27.	What is the use of System class in Java?
+28.	. What is an instance of keyword? 
+29.	What is an Iterator?
+30.	What is the Java Collections Framework?
+31.	What do you understand about Thread Priority?
+32.	What is multi-threading?
+33.	Which is more preferred – Synchronized method or Synchronized block?
+34.	Explain the Java Exception Hierarchy.
+35.	What happens when an exception is thrown by the main method?
+36.	How do you ensure that N thread can access N resources without getting into the Deadlock situation?
+37.	What is String in Java? 
+38.	What are different ways to create String Object?
+39.	Write a method to check if input String is Palindrome?
+40.	Write a method that will remove given character from the String?
+41.	How can we make String upper case or lower case?
+42.	What is String subSequence method?
+43.	How to compare two Strings in java program?
+44.	How to convert String to char and vice versa?
+45.	How to convert String to byte array and vice versa?
+46.	Can we use String in switch case?
+47.	Write a program to print all permutations of String?
+48.	Why Char array is preferred over String for storing password?
+49.	What is String Pool?
+50.	How do you check if two Strings are equal in Java?
+51.	Does String is thread-safe in Java?
+52.	Why String is popular HashMap key in Java?
+53.	Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+54.	 Tell me something about stringbuffer and string builder class.
+55.	What is the difference between StringBuffer and String class ?
+56.	Difference between StringBuffer and StringBuilder ?
+57.	Explain the scenerios to choose between String , StringBuilder and StringBuffer ?
+58.	 what will be the output of this code ?
+
+public static void main(String[] args)
+  {
+        StringBuffer s1=new StringBuffer("Buggy");
+        
+               test(s1);
+        
+        System.out.println(s1);
+        
+  } 
+ 
+ private static void test(StringBuffer s){
+  s.append("Bread");
+ }
+
+59.	 will be the output of this code ?
+
+public static void main(String[] args)
+  {
+        String s1=new String("Buggy");
+        
+               test(s1);
+        
+        System.out.println(s1);
+        
+  } 
+ 
+ private static void test(StringBuffer s){
+  s.append("Bread");
+ }
+
+60.	 what will be the output of this code ?
+
+public static void main(String[] args)
+  {
+        StringBuffer s1=new StringBuffer("Buggy");
+        
+               test(s1);
+        
+        System.out.println(s1);
+        
+  } 
+ 
+ private static void test(StringBuffer s){
+  s=new StringBuffer("Bread");
+ }
+
+61.	Which of the two "StringBuilder" or "StringBuffer" is faster and Why ?
+
+62.	What is Serialization in Java?
+
+63.	How to make a Java class Serializable?
+
+64.	What is the difference between Serializable and Externalizable interface in Java?
+
+65.	How many methods does Serializable have? If no method then what is the purpose of the Serializable interface?
+
+66.	While serializing you want some of the members not to serialize? How do you achieve it?
+
+67.	What will happen if one of the members in the class doesn't implement Serializable interface?
+
+68.	If a class is Serializable but its super class in not, what will be the state of the instance variables inherited from super class after deserialization?
+
+69.	Can you Customize the Serialization process or can you override default Serialization process in Java?
+
+70.	Suppose super class of a new class implement Serializable interface, how can you avoid new class to being serialized?
+
+71.	What is the need of Serialization?
+
+72.	What is the difference between Inheritance and composition in Java?
+
+73.	Types of Inheritance in java
+
+74.	What is Super Keyword in Java?
+
+75.	What is the difference between Inheritance and Encapsulation?
+
+76.	What is Method overloading and overriding in Java?
+
+77.	Is it possible to override a private method in Java?
+
+78.	In Java, Constructor over-riding is possible?
+
+79.	Can a class can implement more than one interface in Java? Is it possible?
+
+80.	How can we run a java program without making any object?
+
+81.	Similarity and Difference between static block and static method ?
+
+82.	How can we create objects if we make the constructor private ?
+
+83.	Is it possible to compile and run a Java program without writing main( ) method?
+
+84.	Can we initialize member variables within static block ?
+
+85.	What are the Wrapper Classes?
+
+86.	Why do we need Wrapper classes?
+
+87.	Operators in java
+
+88.	Datatypes and types of Datatypes
+
+89.	Collections
+90.	What is the Collection framework in Java?
+91.	Main difference between arrays and collections
+92.	Explain various interfaces used in Collection framework?
+93.	What is the difference between ArrayList and LinkedList?
+94.	What is the difference between Iterator and Enumeration?
+95.	What is the difference between List and Set?
+96.	difference between HashSet and Hashmap?
+97.	What is the difference between Collection and Collections
+98.	Difference between array and arraylist
+99.	What do you mean by an exception?
+100.	Difference between error and exception
+101.	Explain how exceptions can be handled in Java
+102.	. Is it possible to keep other statements in between ‘try’, ‘catch’, and ‘finally’ blocks?
+103.	Will it be possible to only include a ‘try’ block without the ‘catch’ and ‘finally’ blocks?
+104.	Difference between final and  finally
+105.	Types of exception
+106.	Is it possible to throw an exception manually? If yes, explain how.
+107.	Why do you use the ‘throws’ keyword in Java?
+108.	How would you differentiate between final, finally and finalize in Java?
+109.	Differentiate between throw, throws and throwable in Java.
+
+
+
